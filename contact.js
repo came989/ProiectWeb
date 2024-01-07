@@ -23,12 +23,6 @@ document.getElementById("submit").onclick = function(){
     } else if(document.getElementById("vehicle3").checked) {
         service = 100000
     }
-    alert(`Your Total price for the selected services is ${service}`);
-   /* var product = 0 
-  var vehicle1 = document.getElementById("vehicle1").value
-  var vehicle2 = document.getElementById("vehicle2").value
-  var vehicle3 = document.getElementById("vehicle3").value
-  product = vehicle1 + vehicle2 + vehicle3
-  alert(`${product}`);
-  */
+    alert(`${namee} Your Total price for the selected services is ${service} and your ${email} and other infos have been saved`);
+
 }
