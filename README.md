@@ -23,8 +23,12 @@ Pagina Contact la care s-a navigat:
 
 -Aici avem un form in care se introduc datele clientului interesat de servicii impreuna cu serviciile sale pe care le poate selecta 
 
--odata ce utilizatorul da click submit informatiile sunt salvate (temporar) si se afiseaza pretul total al serviciilor selectate
+
 ![image](https://github.com/came989/ProiectWeb/assets/45994084/b9d2127f-5389-485f-b5e9-7ab22e119524)
+
+-odata ce utilizatorul da click submit informatiile sunt salvate (temporar) si se afiseaza pretul total al serviciilor selectate
+![image](https://github.com/came989/ProiectWeb/assets/45994084/41767e2e-ef90-42e8-b723-fc855a888ab9)
+
 
 
 
