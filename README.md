@@ -9,7 +9,7 @@ Acesta este un site de prezentare al unei companii (companie fictionala ea nu ex
 ![image](https://github.com/came989/ProiectWeb/assets/45994084/57f64fa4-cadf-4a0a-bf9d-98ed793d0c1f)
 ![image](https://github.com/came989/ProiectWeb/assets/45994084/2529b689-4f97-4324-bfed-1833af953564)
 
-Pagina la care s-a navigat:
+Pagina About la care s-a navigat:
 
 ![image](https://github.com/came989/ProiectWeb/assets/45994084/600f6302-9965-4972-bac5-9289e51dce40)
 
