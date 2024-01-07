@@ -27,7 +27,8 @@ Pagina Contact la care s-a navigat:
 ![image](https://github.com/came989/ProiectWeb/assets/45994084/b9d2127f-5389-485f-b5e9-7ab22e119524)
 
 -odata ce utilizatorul da click submit informatiile sunt salvate (temporar) si se afiseaza pretul total al serviciilor selectate
-![image](https://github.com/came989/ProiectWeb/assets/45994084/41767e2e-ef90-42e8-b723-fc855a888ab9)
+![image](https://github.com/came989/ProiectWeb/assets/45994084/1658eb4f-981f-484f-9df0-0be1304ffe27)
+
 
 
 
