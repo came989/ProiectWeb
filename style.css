@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    color: #fff;
+    background: #081b29;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+    z-index: 100;
+}
+
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+
+.navbar a {
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    opacity: 0;
+    animation: slideTop .5s ease forwards;
+}
+
+.navbar a:hover {
+    color: aqua;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(assets/asdfagd.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+
+.home-content { 
+    max-width: 600px;
+}
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+
+.home-content p {
+    font-size: 20px;
+
+}
+
+.home-content h3 span {
+    color: #0ef;
+}
+
+.home-content h3:nth-of-type(2) {
+    margin-bottom: 30px;
+    opacity: 0;
+    animation: slideBottom .5s ease forwards;
+    animation-delay: 1s;
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    animation: slideLeft .5s ease forwards;
+    animation-delay: calc(.2s * var(--i ));
+}
+
+.home-sci a:hover {
+    background: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 20px #0ef;
+}
+
+.btn-box {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-box:hover {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.about-img img {
+    margin-left: 5%;
+    margin-top: 80px;
+    margin-bottom: 10%;
+    max-width: 630px;
+    width: 100%;
+
+    border-radius: 80px;
+    border: none;
+}
+
+.about-text h2 {
+    font-size: 60px;
+    font-family: 'poppins', sans-serif;
+}
+
+.about-text h2 span {
+    color: #0ef;
+    font-family: 'poppins', sans-serif;
+}
+
+.about-text h4 {
+    font-family: 'poppins', sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+
+.about-text p {
+    font-family: 'poppins', sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+.skillshtml {
+    width: auto;
+    height: auto;
+}
+
+.skills {
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    background: #7e7e7e;
+    width: 1200px;
+    height: 400px;
+    margin-left: 350px;
+    margin-top: 100px;
+    border: #0963a3 solid;
+    border-radius: 15px;
+    text-align: center;
+
+}
+.skills h1, h2 {
+    padding-top: 20px;
+    font-family: 'poppins', sans-serif;
+}
+
+.footer {
+    font-family: 'poppins', sans-serif;
+    margin-top: 10%;
+    box-sizing: border-box;
+    border-top: #fff solid;
+    text-align: center;
+    background: #0b2f49;
+    width: auto;
+    height: 287px;
+}
+
+.footer h1, h2, p {
+    font-family: 'poppins', sans-serif;
+}
+
+.contact {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 3rem;
+    padding-left: 30px;
+    margin-top: 130px;
+}
+
+.contact-text h2 {
+    font-size: 90px;
+    line-height: 1;
+    text-align: center;
+}
+
+.contact-text h2 span {
+    color: #0ef;
+}
+
+.contact-text h4 {
+    margin: 15px 0;
+    color: rgb(228, 228, 228);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact-text p {
+    color: rgb(177, 177, 177);
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+
+.contact-list {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.contact-list i {
+    display: inline-block;
+    color: #0ef;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .40s ease;
+}
+
+.contact-form form {
+    position: relative;
+}
+.contact-form form input, form textarea {
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 18px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.contact-form form input.send:hover {
+    color: #0ef;
+    background: #0963a3;
+}
+
+.services {
+    display: block;
+    position: relative;
+    padding-left: 10px;
+}
+.services p, h1 {
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 15px;
+}
+
+        @keyframes slideLeft {
+            0% {
+                transform: translateX(100px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateX(0px);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideRight {
+            0% {
+                transform: translateX(-100px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateX(0px);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideTop {
+            0% {
+                transform: translateY(-100px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateY(0px);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideBottom {
+            0% {
+                transform: translateY(100px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateY(0px);
+                opacity: 1;
+            }
+        }
